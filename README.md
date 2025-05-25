@@ -18,13 +18,13 @@ Here's an example payload to generate an image:
 ```json
 {
   "input": {
-    "prompt": "a photograph of an astronaut riding a horse",
-    "negative_prompt": "text, watermark, blurry, low quality",
+    "prompt": "Realistic photograph, Movie light, film grain, score_9, score_8_up, score_7_up, source_real, source_photo, source_realistic, source_realism, vivid colors, depth of field, masterpiece, 4k, high quality, (best quality:1.1), A stylish woman, 1920s flapper style, elegant dress, confident pose, sepia tone, soft lighting, vintage photography style, detailed, 8k resolution, art deco background, ",
+    "negative_prompt": "worst quality,low quality,worst detail,low detail,bad anatomy, bad hands,text,error,missing fingers,(extra digit:1.4),fewer digits,cropped,signature,watermark,username,blurry, ",
     "steps": 25,
     "cfg_scale": 7,
-    "width": 512,
-    "height": 512,
-    "sampler_name": "DPM++ 2M Karras"
+    "width": 1024,
+    "height": 1024,
+    "sampler_name": "DPM++ 2M SDE Karras"
   }
 }
 ```
