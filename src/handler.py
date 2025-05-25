@@ -186,7 +186,7 @@ if __name__ == "__main__":
     #    IMPORTANT: The model file 'Gemini_ILMixV5.safetensors' MUST be present in
     #    the AUTOMATIC1111 'models/Stable-diffusion' directory on the RunPod worker.
     #    The name here should match how A1111 lists the model (usually the filename).
-    checkpoint_model_filename = "Gemini_ILMixV5.safetensors" 
+    checkpoint_model_filename = "model.safetensors" 
     set_sd_model_checkpoint(checkpoint_model_filename)
     
     print("AUTOMATIC1111 setup complete. Starting RunPod Serverless worker...")
