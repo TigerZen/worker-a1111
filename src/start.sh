@@ -12,12 +12,11 @@ python /stable-diffusion-webui/webui.py \
   --skip-python-version-check \
   --skip-torch-cuda-test \
   --skip-install \
-  --ckpt /workspace/models/stable_diffusion/checkpoints/Gemini_ILMixV5.safetensors \
+  --ckpt /model.safetensors \
   --opt-sdp-attention \
   --disable-safe-unpickle \
   --port 3000 \
   --api \
-  --lora-dir /workspace/models/stable_diffusion/Lora \
   --nowebui \
   --skip-version-check \
   --no-hashing \
